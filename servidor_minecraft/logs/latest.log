@@ -1,0 +1,123 @@
+[12Jan2026 16:06:59.792] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[12Jan2026 16:06:59.795] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[12Jan2026 16:07:00.108] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Jan2026 16:07:00.151] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mi-server-mc-doctor-piedra/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[12Jan2026 16:07:00.496] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-mc-doctor-piedra/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2026 16:07:00.499] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-mc-doctor-piedra/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2026 16:07:00.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-mc-doctor-piedra/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2026 16:07:00.504] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-mc-doctor-piedra/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[12Jan2026 16:07:00.738] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[12Jan2026 16:07:00.740] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[12Jan2026 16:07:02.725] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Jan2026 16:07:02.879] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[12Jan2026 16:07:03.109] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Jan2026 16:07:03.910] [main/WARN] [mixin/]: Error loading class: traben/entity_model_features/models/animation/EMFAnimationEntityContext (java.lang.ClassNotFoundException: traben.entity_model_features.models.animation.EMFAnimationEntityContext)
+[12Jan2026 16:07:03.912] [main/WARN] [mixin/]: Error loading class: earth/terrarium/handcrafted/common/blocks/FancyBedBlock (java.lang.ClassNotFoundException: earth.terrarium.handcrafted.common.blocks.FancyBedBlock)
+[12Jan2026 16:07:04.752] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[12Jan2026 16:07:11.513] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[12Jan2026 16:07:11.535] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[12Jan2026 16:07:11.540] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[12Jan2026 16:07:11.561] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[12Jan2026 16:07:11.651] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[12Jan2026 16:07:11.655] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[12Jan2026 16:07:12.210] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[12Jan2026 16:07:12.425] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[12Jan2026 16:07:12.428] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[12Jan2026 16:07:14.166] [main/INFO] [Moonlight/]: Initialized block sets in 11ms
+[12Jan2026 16:07:14.654] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[12Jan2026 16:07:14.687] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[12Jan2026 16:07:14.775] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[12Jan2026 16:07:14.777] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[12Jan2026 16:07:14.790] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[12Jan2026 16:07:14.790] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[12Jan2026 16:07:14.791] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[12Jan2026 16:07:14.873] [main/INFO] [Moonlight/]: Initialized color sets in 27ms
+[12Jan2026 16:07:14.919] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[12Jan2026 16:07:14.919] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[12Jan2026 16:07:14.920] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[12Jan2026 16:07:14.920] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[12Jan2026 16:07:14.958] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[12Jan2026 16:07:14.959] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[12Jan2026 16:07:14.961] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[12Jan2026 16:07:14.961] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[12Jan2026 16:07:14.961] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[12Jan2026 16:07:15.048] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[12Jan2026 16:07:15.075] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[12Jan2026 16:07:15.078] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[12Jan2026 16:07:15.080] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[12Jan2026 16:07:15.080] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[12Jan2026 16:07:15.082] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[12Jan2026 16:07:15.082] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[12Jan2026 16:07:15.083] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hexagram2021.everyxdance.common.WailaHelper
+[12Jan2026 16:07:15.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.6.11 Target: null
+[12Jan2026 16:07:15.348] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/forge_updates.json
+[12Jan2026 16:07:15.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.20-2.16.21 Target: 1.20-2.16.21-forge
+[12Jan2026 16:07:15.569] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[12Jan2026 16:07:15.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[12Jan2026 16:07:15.729] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[12Jan2026 16:07:15.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.48 Target: null
+[12Jan2026 16:07:15.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[12Jan2026 16:07:15.794] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.9 Target: null
+[12Jan2026 16:07:15.794] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Jan2026 16:07:15.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[12Jan2026 16:07:17.104] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Jan2026 16:07:18.440] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mi-server-mc-doctor-piedra/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/assets/.mcassetsroot' uses unexpected schema
+[12Jan2026 16:07:18.441] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mi-server-mc-doctor-piedra/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23163!/data/.mcassetsroot' uses unexpected schema
+[12Jan2026 16:07:20.046] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag sleep_tight:laying_beds_blacklist as it is missing following references: good_nights_sleep:luxurious_bed (from sleep_tight-1.20-1.4.7.jar), 
+	good_nights_sleep:wretched_bed (from sleep_tight-1.20-1.4.7.jar), 
+	good_nights_sleep:strange_bed (from sleep_tight-1.20-1.4.7.jar)
+[12Jan2026 16:07:20.940] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[12Jan2026 16:07:21.093] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2802 advancements
+[12Jan2026 16:07:22.155] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Jan2026 16:07:22.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jan2026 16:07:22.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jan2026 16:07:22.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jan2026 16:07:22.307] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Jan2026 16:07:22.358] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Jan2026 16:07:22.456] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Jan2026 16:07:22.457] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Jan2026 16:07:22.457] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Jan2026 16:07:22.458] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Jan2026 16:07:22.583] [Server thread/INFO] [Framework/]: Loading server configs...
+[12Jan2026 16:07:22.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "El pepe"
+[12Jan2026 16:07:26.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Jan2026 16:07:29.988] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.015] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.023] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.032] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.045] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.192] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.207] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.228] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.240] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:30.535] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jan2026 16:07:31.035] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[12Jan2026 16:07:31.535] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[12Jan2026 16:07:31.597] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5563 ms
+[12Jan2026 16:07:31.598] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.120s)! For help, type "help"
+[12Jan2026 16:07:31.679] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Jan2026 16:07:31.695] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[12Jan2026 16:07:31.739] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12Jan2026 16:07:31.759] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[12Jan2026 16:07:34.326] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[12Jan2026 16:07:34.449] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: nachopp[/127.80.253.50:45003] logged in with entity id 388 at (30.865318491498687, 84.0, -190.69999998807907)
+[12Jan2026 16:07:34.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nachopp joined the game
+[12Jan2026 16:07:34.918] [Server thread/INFO] [Jade/]: Syncing config to nachopp (8bdcb260-ff5f-3d22-a125-17adf7173acf)
+[12Jan2026 16:07:35.011] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of nachopp (20)
+[12Jan2026 16:07:35.017] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to nachopp
+[12Jan2026 16:07:43.269] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: nachopp lost connection: Disconnected
+[12Jan2026 16:07:43.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: nachopp left the game
+[12Jan2026 16:07:43.274] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client nachopp
+[12Jan2026 16:07:43.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Jan2026 16:07:43.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Jan2026 16:07:43.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Jan2026 16:07:43.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[El pepe]'/minecraft:overworld
+[12Jan2026 16:07:44.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[El pepe]'/minecraft:the_nether
+[12Jan2026 16:07:44.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[El pepe]'/minecraft:the_end
+[12Jan2026 16:07:44.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (El pepe): All chunks are saved
+[12Jan2026 16:07:44.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jan2026 16:07:44.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jan2026 16:07:44.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Jan2026 16:07:44.082] [Server thread/INFO] [Framework/]: Unloading server configs...
+[12Jan2026 16:07:44.084] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[12Jan2026 16:07:44.086] [Server thread/INFO] [Framework/]: Finished unloading server configs
